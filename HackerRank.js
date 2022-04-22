@@ -1,6 +1,6 @@
 const puppeteer=require("puppeteer");
 const mail="rigapog742@aikusy.com";
-const pass="Navin@1999";
+const pass="12345678";
 const code=require('./code');
 let  browserPromise = puppeteer.launch({ headless: false, defaultViewport: null,args: ['--start-fullscreen'] });
 //let browserPromise=puppeteer.launch({headless : false});
